@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Dashboard Layout</title>
+		<link
+			rel="stylesheet"
+			href="first.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="table.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Sidebar -->
+			<div class="sidebar">
+				<div class="logo">
+					<img
+						src="components/images/logo.png"
+						alt="Logo"
+					/>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<img
+								src="components/images/Home Button.png"
+								alt="Home"
+							/>
+						</li>
+						<li>
+							<img
+								src="components/images/Inv Button.png"
+								alt="Package"
+							/>
+						</li>
+						<li>
+							<img
+								src="components/images/Orders Button.png"
+								alt="List"
+							/>
+						</li>
+						<li>
+							<img
+								src="components/images/Categories Button.png"
+								alt="Grid"
+							/>
+						</li>
+						<li>
+							<img
+								src="components/images/Dashboard Button.png"
+								alt="Chart"
+							/>
+						</li>
+						<li>
+							<img
+								src="components/images/Wallet Button.png"
+								alt="Wallet"
+							/>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img
+								src="components/images/Logout Button.png"
+								alt="Logout"
+							/>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- Main Content -->
+			<div class="main-content">
+				<header>
+					<div class="search-bar">
+						<div class="hori">
+							<img
+								src="components/images/Search Button.png"
+								alt="Search"
+							/>
+							<input
+								type="text"
+								placeholder="Search..."
+							/>
+						</div>
+						<div class="header-icons">
+							<img
+								src="components/images/Cart Button.png"
+								alt="Cart"
+							/>
+							<img
+								src="components/images/Profile Button.png"
+								alt="Profile"
+							/>
+						</div>
+					</div>
+				</header>
+
+				<!-- Content Boxes -->
+				<!-- <div class="content">
+					<div class="left">
+						<div class="card1"></div>
+						<div class="card1"></div>
+						<div class="card1 large"></div>
+					</div>
+					<div class="right">
+						<div class="right_card"></div>
+					</div>
+				</div> -->
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>Name</th>
+							<th>Status</th>
+							<th>Generic Name</th>
+							<th>Manufacturer</th>
+							<th>Quantity</th>
+							<th>Name</th>
+							<th>Tags</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>Name</td>
+							<td>
+								<div class="status">
+									<div class="status-indicator"></div>
+									Active
+								</div>
+							</td>
+							<td>Generic Name</td>
+							<td>Name</td>
+							<td>99x</td>
+							<td>Name</td>
+							<td>
+								<label class="switch">
+									<input type="checkbox" />
+									<span class="slider"></span>
+								</label>
+							</td>
+						</tr>
+						<!-- Repeat the following <tr> block for other rows -->
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>Name</td>
+							<td>
+								<div class="status">
+									<div class="status-indicator"></div>
+									Active
+								</div>
+							</td>
+							<td>Generic Name</td>
+							<td>Name</td>
+							<td>99x</td>
+							<td>Name</td>
+							<td>
+								<label class="switch">
+									<input type="checkbox" />
+									<span class="slider"></span>
+								</label>
+							</td>
+						</tr>
+						<!-- Add more rows as needed -->
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>Name</td>
+							<td>
+								<div class="status">
+									<div class="status-indicator"></div>
+									Active
+								</div>
+							</td>
+							<td>Generic Name</td>
+							<td>Name</td>
+							<td>99x</td>
+							<td>Name</td>
+							<td>
+								<label class="switch">
+									<input type="checkbox" />
+									<span class="slider"></span>
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>Name</td>
+							<td>
+								<div class="status">
+									<div class="status-indicator"></div>
+									Active
+								</div>
+							</td>
+							<td>Generic Name</td>
+							<td>Name</td>
+							<td>99x</td>
+							<td>Name</td>
+							<td>
+								<label class="switch">
+									<input type="checkbox" />
+									<span class="slider"></span>
+								</label>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
