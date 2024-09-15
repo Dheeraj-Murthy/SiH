@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	height: 100vh;
+}
+
+.sidebar {
+	width: 80px;
+	background-color: #2d6eb0;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sidebar .logo img {
+	width: 40px;
+	margin-bottom: 20px;
+}
+
+.sidebar {
+	gap: 40px;
+}
+
+.sidebar nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+.sidebar nav ul li {
+	margin: 20px 0;
+}
+
+.sidebar nav ul li img {
+	width: 30px;
+}
+
+.main-content {
+	flex: 1;
+	background-color: #f5f5f5;
+	padding: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.search-bar {
+	display: flex;
+	align-items: center;
+	background-color: #e0e0e0;
+	padding: 10px;
+	border-radius: 20px;
+	flex: 1;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.hori {
+	display: flex;
+	flex-direction: row;
+}
+
+.search-bar input {
+	border: none;
+	background: transparent;
+	outline: none;
+	padding: 0 10px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.search-bar img {
+	width: 20px;
+}
+
+.header-icons img {
+	width: 30px;
+	margin-left: 20px;
+}
+
+.customer-list ul {
+	list-style: none;
+	margin-top: 20px;
+}
+
+.customer-list ul li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	font-size: 18px;
+}
+
+.customer-list ul li .name {
+	flex: 1;
+	font-weight: bold;
+}
+
+.customer-list ul li .quantity {
+	flex: 0.5;
+	text-align: center;
+}
+
+.loading-bar {
+	flex: 2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.progress-bar {
+	width: 80%;
+	height: 10px;
+	background-color: #e0e0e0;
+	border-radius: 5px;
+	position: relative;
+}
+
+.progress-bar::after {
+	content: '';
+	width: 50%; /* Adjust this to show progress */
+	height: 100%;
+	background-color: #4caf50;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+}
+
+.track {
+	margin-left: 10px;
+	font-size: 14px;
+	color: #007bff;
+	cursor: pointer;
+}
+
+.track:hover {
+	text-decoration: underline;
+}
+
+.customer-list ul li .status {
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 12px;
+	background-color: #e0f7e9;
+	color: #4caf50;
+}
+
+.status.active {
+	background-color: #e0f7e9;
+	color: #4caf50;
+}
+
+.logo {
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
